@@ -1,0 +1,10 @@
+{
+  "name": "sybos-http-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "greenlock": "^4.0.4",
+    "http-proxy": "^1.18.0"
+  }
+}
