@@ -18,4 +18,6 @@ const isDevelopment = process.env.NODE_ENV !== 'production'
     })
 
     proxy.listen(process.env.PORT)
+
+    console.log(`Listening to ${process.env.PORT}`)
 })()
