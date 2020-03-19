@@ -7,7 +7,7 @@ const isDevelopment = process.env.NODE_ENV !== 'production'
 
 ;(async () => {
     const proxy = httpProxy.createProxyServer({
-        target: 'https://sybos.ooelfv.at/',
+        target: 'https://sybos.ooelfv.at/sybServices',
         ssl: {
             cert: fs.readFileSync(path.resolve(process.env.SSL_CERT)),
             key: fs.readFileSync(path.resolve(process.env.SSL_KEY)),
